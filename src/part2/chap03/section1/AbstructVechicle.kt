@@ -1,4 +1,4 @@
-package part2.chap02.section1
+package part2.chap03.section1
 
 abstract class Vechicle(val name: String,val color:String, val weight:Int) {
     abstract var maxSpeed:Double
