@@ -1,21 +1,22 @@
 package part2.chap01.section3
 
+// 상속가능한 클래스를 위해 open 사용
 open class Bird(var name:String, var wing:Int, var beak: String) {
     open fun fly() {
         println("Fly")
     }
 }
-
+// 주 생성자를 사용하는 상속
 class Lark(name:String, wing:Int, beak:String):Bird(name ,wing,beak) {
     override fun fly() {
         println("quick fly")
     }
 
-    fun singHightone() {
+    fun singHightone() { // 새로 추가된 메서드
         println("sing hightone")
     }
 }
-
+//
 class Parrot:Bird {
     var lanauage :String
     constructor(name:String, wing:Int, beak:String, lanauage: String) :super (name, wing, beak){

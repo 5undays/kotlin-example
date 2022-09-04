@@ -20,5 +20,5 @@ class developer:Person {
 }
 
 fun main() {
-    val sean = developer("sean")
+   // val sean = developer("sean")
 }
