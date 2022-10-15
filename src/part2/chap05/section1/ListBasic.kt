@@ -11,4 +11,8 @@ fun main() {
 
     for (num in numbers) print(num)
     println()
+
+    val mutableNames = names.toMutableList()
+    mutableNames.add("four")
+    println(mutableNames)
 }
