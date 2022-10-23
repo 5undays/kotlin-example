@@ -3,6 +3,10 @@ package part2.chap04.section1
 fun main() {
     val result = getType<Float>(10)
     println("result = $result")
+    val result2 = getType<Int>(1)
+    println("result2 = $result2")
+    val result3 = getType<Double>(2)
+    println("result3 = $result3")
 }
 
 inline fun <reified T> getType(value: Int) :T {
