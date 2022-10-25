@@ -1,4 +1,4 @@
-package part2.chap05.section1
+package part2.chap05.section2
 
 fun main() {
     val mixedTypeSet = setOf("Hello", 5, "World", 3.14, 'c') // 자료형 혼합 초기화

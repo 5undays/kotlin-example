@@ -1,4 +1,4 @@
-package part2.chap05.section1
+package part2.chap05.section2
 
 import java.util.TreeSet
 
