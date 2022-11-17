@@ -1,4 +1,4 @@
-package part2.chap05.section2
+package part2.chap05.section3
 
 fun main() {
     val capitalCityMap: MutableMap<String, String>
