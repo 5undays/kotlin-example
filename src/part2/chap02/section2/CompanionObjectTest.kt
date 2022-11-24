@@ -11,9 +11,9 @@ class Person4 {
     }
 }
 fun main() {
-    println(Person4.language) // 인스턴스
-    Person4.language = "English"
-    println(Person4.language)
-    Person4.work()
-    //println(Person4.name)
+    println(Person4.language) // 인스턴스를 생성하지 않고 기본값 사용
+    Person4.language = "English" // 기본값 변경 가능
+    println(Person4.language) // 변경된 내용 출력
+    Person4.work() // 메서드 실행
+    //println(Person4.name) // name은 companion object가 아니기 때문에 초기화가 필요
 }
